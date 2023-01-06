@@ -1,0 +1,64 @@
+body {
+  background-image: url('../img/bgc_clouds.jpg');
+  color: #334E5E;
+}
+
+.App {
+  text-align: center;
+  margin: 60px auto;
+}
+
+.App h1 {
+  font-size: 36px;
+  margin: 10px auto;
+}
+
+.App h2 {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.App input,
+.App button {
+  padding: 7px 10px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+
+.App input {
+  font-size: 18px;
+  letter-spacing: .6px;
+}
+
+.App button {
+  margin-left: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.App button:hover {
+  background-color: transparent;
+  color: #334E5E;
+  letter-spacing: 1px;
+}
+
+.result {
+  margin: 40px auto;
+}
+
+.result h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.result h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.result p {
+  font-size: 18px;
+  line-height: 28px;
+}
